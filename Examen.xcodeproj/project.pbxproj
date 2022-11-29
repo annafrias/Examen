@@ -99,11 +99,12 @@
 		056DEB982936A3EC00CB6DC5 /* Examen */ = {
 			isa = PBXGroup;
 			children = (
+				056DEBCB2936A52C00CB6DC5 /* Assets */,
+				056DEBCC2936A53900CB6DC5 /* Classes */,
 				056DEB992936A3EC00CB6DC5 /* AppDelegate.swift */,
 				056DEB9B2936A3EC00CB6DC5 /* SceneDelegate.swift */,
 				056DEB9D2936A3EC00CB6DC5 /* ViewController.swift */,
 				056DEB9F2936A3EC00CB6DC5 /* Main.storyboard */,
-				056DEBA22936A3ED00CB6DC5 /* Assets.xcassets */,
 				056DEBA42936A3ED00CB6DC5 /* LaunchScreen.storyboard */,
 				056DEBA72936A3ED00CB6DC5 /* Info.plist */,
 			);
@@ -125,6 +126,45 @@
 				056DEBBC2936A3ED00CB6DC5 /* ExamenUITestsLaunchTests.swift */,
 			);
 			path = ExamenUITests;
+			sourceTree = "<group>";
+		};
+		056DEBCB2936A52C00CB6DC5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				056DEBA22936A3ED00CB6DC5 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		056DEBCC2936A53900CB6DC5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				056DEBD02936A5AE00CB6DC5 /* Bases */,
+				056DEBCE2936A58400CB6DC5 /* Model */,
+				056DEBCD2936A57B00CB6DC5 /* Api */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		056DEBCD2936A57B00CB6DC5 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		056DEBCE2936A58400CB6DC5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		056DEBD02936A5AE00CB6DC5 /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bases;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
