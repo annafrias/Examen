@@ -16,6 +16,7 @@
 		056DEBB12936A3ED00CB6DC5 /* ExamenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056DEBB02936A3ED00CB6DC5 /* ExamenTests.swift */; };
 		056DEBBB2936A3ED00CB6DC5 /* ExamenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056DEBBA2936A3ED00CB6DC5 /* ExamenUITests.swift */; };
 		056DEBBD2936A3ED00CB6DC5 /* ExamenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056DEBBC2936A3ED00CB6DC5 /* ExamenUITestsLaunchTests.swift */; };
+		056DEBD42936AA4500CB6DC5 /* aaa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056DEBD32936AA4500CB6DC5 /* aaa.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		056DEBB62936A3ED00CB6DC5 /* ExamenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		056DEBBA2936A3ED00CB6DC5 /* ExamenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamenUITests.swift; sourceTree = "<group>"; };
 		056DEBBC2936A3ED00CB6DC5 /* ExamenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		056DEBD32936AA4500CB6DC5 /* aaa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aaa.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		056DEB982936A3EC00CB6DC5 /* Examen */ = {
 			isa = PBXGroup;
 			children = (
+				056DEBD22936A7E000CB6DC5 /* New Group */,
 				056DEBD12936A6B700CB6DC5 /* a */,
 				056DEBCB2936A52C00CB6DC5 /* Assets */,
 				056DEBCC2936A53900CB6DC5 /* Classes */,
@@ -171,8 +174,16 @@
 		056DEBD12936A6B700CB6DC5 /* a */ = {
 			isa = PBXGroup;
 			children = (
+				056DEBD32936AA4500CB6DC5 /* aaa.swift */,
 			);
 			path = a;
+			sourceTree = "<group>";
+		};
+		056DEBD22936A7E000CB6DC5 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,6 +320,7 @@
 				056DEB9E2936A3EC00CB6DC5 /* ViewController.swift in Sources */,
 				056DEB9A2936A3EC00CB6DC5 /* AppDelegate.swift in Sources */,
 				056DEB9C2936A3EC00CB6DC5 /* SceneDelegate.swift in Sources */,
+				056DEBD42936AA4500CB6DC5 /* aaa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
